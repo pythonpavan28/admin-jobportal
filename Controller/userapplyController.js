@@ -17,7 +17,7 @@ const sendSuccessEmail = (email, title) => {
     from: "ajaykumarthappeta119@gmail.com",
     to: email,
     subject: "You Have Applied Successfully",
-    text: `You have applied for the job for the ${title} role at Monosage.com.`,
+    text: `You have applied for the job for the ${title} role at pavancompany.com.`,
   };
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
